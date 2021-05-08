@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    #url: "jdbc:postgresql://localhost:5432/springdb"
+    url: "jdbc:postgresql://ec2-54-78-36-245.eu-west-1.compute.amazonaws.com:5432/d387sgttv3dsmi"
+    username: nsgilrxkwljgtj
+    password: 435120b2c160a43b512eeb0b78ed8c56f64cd1be1d212521b99e3e8b45794a47
+server:
+  port:${PORT:8080}}
